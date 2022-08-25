@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fakta</title>
+</head>
+
+<body>
+
+    <h1>Fakta om veckans dagar</h1>
+
+    <table border="1" width="1000">
+        <!-- tr>th*2 skapar rubriker -->
+        <!-- tabellhuvud -->
+        <thead>
+            <tr>
+                <th>Veckodag</th>
+                <th>Fakta</th>
+            </tr>
+        </thead>
+        <!-- En tabell kan om man vill innehålla tbody -->
+        <tbody>
+            <tr>
+                <td>Måndag</td>
+                <td>Veckas första dag</td>
+            </tr>
+
+            <tr>
+                <td>Tisdag</td>
+                <td>En kort dag</td>
+            </tr>
+
+            <tr>
+                <td>Onsdag</td>
+                <td>Mitt i veckan</td>
+            </tr>
+
+            <tr>
+                <td>Torsdag</td>
+                <td>Nästan fredag då</td>
+            </tr>
+
+            <tr>
+                <td>Fredag</td>
+                <td>Då blir det fest</td>
+            </tr>
+            <tr>
+                <td>Lördag</td>
+                <td>Är man trött efter festen</td>
+            </tr>
+            <tr>
+                <td>Söndag</td>
+                <td>Tar man det lugnt i väntan på nästa fredags</td>
+            </tr>
+        </tbody>
+        <!-- en tabell kan innehålla en tabellfot -->
+        <tfoot>
+            <tr>
+                <td>&copy; Casper</td>
+                <td>Tips om vad man kan göra</td>
+            </tr>
+        </tfoot>
+    </table>
+    <h1>coola videos</h1>
+    <table border="1" width="1000">
+        <tr>
+            <td><video width="560" height="315"
+                    src="https://upload.wikimedia.org/wikipedia/commons/9/90/Monkey_Businesstrailer_%281931%29.webm"
+                    controls autoplay></video></td>
+            <td>Apa som är cool</td>
+        </tr>
+        <tr>
+            <td>insane lärlingsrik video</td>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/SkY1DiyCqTU"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe></td>
+        </tr>
+
+
+
+
+    </table>
+
+</body>
+
+</html>
