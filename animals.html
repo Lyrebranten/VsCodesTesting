@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Några djur</title>
+
+    <style>
+        h2 {
+            color: blue;
+        }
+
+        p {
+            color: red;
+        }
+
+        ul {
+            color: green;
+        }
+
+        h2 {
+            font-size: 500%;
+        }
+    </style>
+
+</head>
+
+<header>
+    <!-- Om ex en meny ska finnas på sidan bör den placeras inom ett eget element - likaså en tänkt rubrik -->
+    <div>
+        En sida om Sverige
+    </div>
+    <!-- För navigering på en sida använd elmentet nav-->
+    <header>
+        <nav>
+            <a href="semantic-elements.html">Semantiska element</a> | <a href="gallery.html">Gallery</a> | <a
+                href="animals.html">Animals</a> | <a href="index.html">index</a> | <a href="tabeller.html">Tabeller</a>
+            | <a href="contact.html"> Contact</a>
+        </nav>
+
+    </header>
+<hr>
+
+    <body>
+
+        <h1>Några djur..</h1>
+
+        <h2>älg</h2>
+
+        <!-- ange en relativ sökväg till bilden -->
+
+        <p>
+            det här är en älg - skogens konung
+        </p>
+
+        <img src="images/älg.avif" alt="cool älg" title="cool älg" width="500">
+        <!-- ange ne absolut sökväg till bilden -->
+
+        <h2>Snigel</h2>
+        <p>
+            en bild på en snigel - <mark>snigel</mark>
+        </p>
+
+        <img src="https://cdn.pixabay.com/photo/2017/04/05/07/20/snail-2204127_960_720.jpg" alt="en singel på ett träd"
+            title="en singel på ett träd" width="500">
+
+        <h2>våra stora svenska rovdjur</h2>
+        <!-- EN onumrerad lista skapas med elementer ul -->
+        <ul>
+            <li>Björn</li>
+            <li>Varg</li>
+            <li>Lodjur</li>
+            <li>Järv</li>
+        </ul>
+        <!-- i vscode kan man bygga upp en skevens av element - ex: ul>li*4 för att skapa 4 list punkter direkt -->
+
+        <ul>
+            <li>beastmode</li>
+            <li>beastmode</li>
+            <li>beastmode</li>
+            <li>beastmode</li>
+        </ul>
+        <!-- gör en numrerad lista med ol -->
+        <ol>
+            <li>babian</li>
+            <li>orm</li>
+            <li>panda</li>
+            <li>snigel</li>
+            <li>pyton</li>
+        </ol>
+
+        <h2>Djur som är coola</h2>
+
+        <h2>Talesätt som har med djur att göra</h2>
+        <ul>
+            <li>Räv
+                <ul>
+                    <li>surt sa räven</li>
+                    <li>Listig som en räv</li>
+                </ul>
+            </li>Älg
+            <li>
+                <ul>
+                    <li>Älgen badade och blev ren.</li>
+                    <li>Älg upphör!</li>
+                </ul>
+            </li>
+            <li>Bi
+                <ul>
+                    <li>Arg som ett bi</li>
+                    <li>Störig som ett bi</li>
+                </ul>
+            </li>
+        </ul>
+
+        <!-- elementet br skapar en radbrytining -->
+
+        <h1>HTML <br> är struktur och innehåll</h1>
+
+
+
+
+    </body>
+
+</html>

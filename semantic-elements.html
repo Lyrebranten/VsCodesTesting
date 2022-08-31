@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantiska element</title>
+</head>
+
+<body>
+
+    <header>
+        <!-- Om ex en meny ska finnas på sidan bör den placeras inom ett eget element - likaså en tänkt rubrik -->
+        <div>
+            En sida om Sverige
+        </div>
+        <!-- För navigering på en sida använd elmentet nav-->
+        <header>
+            <nav>
+                <a href="semantic-elements.html">Semantiska element</a> | <a href="gallery.html">Gallery</a> | <a
+                    href="animals.html">Animals</a> | <a href="index.html">index</a> | <a
+                    href="tabeller.html">Tabeller</a> | <a href="contact.html"> Contact</a>
+            </nav>
+
+        </header>
+
+        <hr>
+        Navigera på den här sidan till: <a href="#Lorem">Lorem</a> | <a href="#Inventore">Inventore</a> | <a
+            href="#Fugit"> Fugit</a>
+        <hr>
+        <h1>Semantiska element</h1>
+        <p>
+            Element som beskriver ett tänkt innehåll
+        </p>
+
+        <article id="History">
+
+            <!-- elementet atricle -->
+            <h2>Om sveriges historia</h2>
+
+            <article>
+                <h3>Förhistoria</h3>
+                <p>
+                    Sweden's prehistory begins in the Allerød oscillation, a warm period around 12,000 BC,[37] with Late
+                    Palaeolithic reindeer-hunting camps of the Bromme culture at the edge of the ice in what is now the
+                    country's southernmost province, Scania. This period was characterised by small clans of
+                    hunter-gatherers
+                    who relied on flint technology.[38]
+                </p>
+                <p>
+                    Sweden and its people were first described by Publius Cornelius Tacitus in his written work Germania
+                    (98
+                    AD).[39] In Germania 44 and 45 he mentions the Swedes (Suiones) as a powerful tribe (distinguished
+                    not
+                    merely for their arms and men, but for their powerful fleets) with ships that had a prow at each end
+                    (longships).[40] Which kings (*kuningaz) ruled these Suiones is unknown, but Norse mythology
+                    presents a
+                    long
+                    line of legendary and semi-legendary kings going back to the last centuries BC. As for literacy in
+                    Sweden
+                    itself, the runic script was in use among the south Scandinavian elite by at least the second
+                    century
+                    AD,
+                    but all that has come down to the present from the Roman Period is curt inscriptions on artefacts,
+                    mainly of
+                    male names, demonstrating that the people of south Scandinavia spoke Proto-Norse at the time, a
+                    language
+                    ancestral to Swedish and other North Germanic languages.[41]
+                </p>
+            </article>
+
+            <article>
+                <h3>Vikingar</h3>
+                <p>
+                    The Swedish Viking Age lasted roughly from the eighth century to the 11th century. It is believed
+                    that
+                    Swedish Vikings and Gutar mainly travelled east and south, going to Finland, Estonia, the Baltic
+                    countries,
+                    Russia, Belarus, Ukraine, the Black Sea and even as far as Baghdad. Their routes passed through the
+                    Dnieper
+                    south to Constantinople, on which they carried out numerous raids. The Byzantine Emperor Theophilos
+                    noticed
+                    their great skills in war, and invited them to serve as his personal bodyguard, known as the
+                    Varangian
+                    Guard. The Swedish Vikings, called Rus are believed to be the founding fathers of Kievan Rus'.[43]
+                    The
+                    Arab
+                    traveller Ibn Fadlan described these Vikings as follows:
+                </p>
+                <p>
+                    I have seen the Rus as they came on their merchant journeys and encamped by the Itil. I have never
+                    seen
+                    more
+                    perfect physical specimens, tall as date palms, blond and ruddy; they wear neither tunics nor
+                    caftans,
+                    but
+                    the men wear a garment which covers one side of the body and leaves a hand free. Each man has an
+                    axe, a
+                    sword, and a knife, and keeps each by him at all times. The swords are broad and grooved, of
+                    Frankish
+                    sort.[44]
+                </p>
+            </article>
+
+            <article>
+                <h3>Kingdom of sweden</h3>
+                <p>
+                    It is not known when and how the kingdom of Sweden was born, but the list of Swedish monarchs is
+                    drawn
+                    from
+                    the first kings known to have ruled both Svealand (Sweden) and Götaland (Gothia) as one province,
+                    beginning
+                    with Eric the Victorious. Sweden and Gothia were two separate nations long before that and since
+                    antiquity.[citation needed] It is not known how long they existed: the epic poem Beowulf describes
+                    semi-legendary Swedish-Geatish wars in the sixth century. Götaland in this sense mainly includes the
+                    provinces of Östergötland (East Gothia) and Västergötland (West Gothia). The island of Gotland was
+                    disputed
+                    by other than Swedes, at this time (Danish, Hanseatic, and Gotland-domestic). Småland was at that
+                    time
+                    of
+                    little interest to anyone due to the deep pine forests, and only the city of Kalmar with its castle
+                    was
+                    of
+                    importance. The south-west parts of the Scandinavian peninsula consisted of three Danish provinces
+                    (Scania,
+                    Blekinge and Halland). North of Halland, Denmark had a direct border to Norway and its province
+                    Bohuslän.
+                    But there were Swedish settlements along the southern coastline of Norrland.
+
+                </p>
+            </article>
+            <p>
+                Källa: <a href="https://en.wikipedia.org/wiki/Sweden">Wikipedia</a>
+            </p>
+
+        </article>
+
+        <article id="Ekonomi">
+            <h3>Sveriges ekonomi</h3>
+            <p>
+                &copy; Crazy fismannen
+            </p>
+
+        </article>
+
+        <!-- Information på en sida som inte har med själva innehållet o göra kan placeras i elementet aside -->
+        <!-- Det huvudsakliga innehållet på en sida placeras då i elementet main -->
+
+        <aside>
+            <details>
+                <summary>Läs mer om biff stroganoff</summary>
+                Måndagens biff stroganoff var god - kändes lite unikt men var ändå gott
+            </details>
+        </aside>
+
+
+        <p id="Lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. A natus dolorum perspiciatis quo nisi qui
+            temporibus quasi fugiat vitae, assumenda atque? Dolorem provident error unde at laborum, suscipit qui
+            sapiente. Aperiam nobis consectetur porro architecto asperiores quasi eos eum id maxime qui voluptatum
+            aliquam dicta distinctio atque minus in blanditiis vero dolore dignissimos alias, ipsum deserunt quisquam.
+            Reiciendis omnis libero rem? Sint inventore suscipit corporis enim ad ea ipsum, quisquam rerum laboriosam
+            culpa fugiat iste quas, error modi hic cum eaque fuga. Magni quidem tenetur iste similique vero aliquam
+            atque consequatur. Facere voluptas sit at. Unde, nihil quasi in amet saepe quisquam numquam, quia sint
+            accusamus, magni soluta sapiente corrupti sit esse pariatur ex adipisci eligendi laudantium dolores
+            voluptatem autem. Inventore deleniti nesciunt iste, voluptates modi error repellendus nobis quae assumenda?
+            Libero nesciunt animi dolore porro, dignissimos eius officia! Fugiat dolorum deserunt cum quo nesciunt rerum
+            mollitia aspernatur nobis aliquam quis dolorem facilis harum molestiae reprehenderit ipsa natus eligendi
+            debitis magni, ullam blanditiis qui ut iusto fugit alias. Aut voluptatum voluptates esse iusto nostrum,
+            similique adipisci enim iure nobis doloremque accusantium rem neque, officiis perspiciatis iste? Sed quos
+            possimus quod, esse optio ea cupiditate at harum eum atque beatae! Beatae.</p>
+        <p id="Inventore">Inventore omnis autem maiores quod veritatis voluptate quae quia porro distinctio vel enim
+            praesentium non pariatur ducimus a dolores ipsa repellendus totam minus, soluta, atque unde fugiat amet.
+            Voluptas natus earum animi quisquam doloremque provident! Explicabo iste harum, et rerum qui expedita amet
+            minus dolorem, non odio dolor quisquam? Porro, quisquam odit! Optio, quibusdam eveniet dolore veritatis
+            nesciunt dolorem vel, explicabo debitis exercitationem, magnam illo. Ea officia nemo ullam vitae voluptatem
+            doloribus nam consequuntur eveniet, minus perspiciatis. Nisi mollitia aliquid unde, earum illo error
+            inventore non explicabo aperiam ab ducimus facere possimus. Culpa officia soluta, cupiditate deleniti in
+            quidem. Quas laudantium omnis aspernatur eum nisi obcaecati vel. Saepe eveniet minus laborum, ut mollitia, a
+            perferendis ex eaque facilis totam eum tempora delectus molestiae laudantium? Ipsa ut sit laudantium
+            adipisci quam ab assumenda veniam dicta fugit modi omnis repudiandae neque, eveniet esse commodi. Magni non
+            illo saepe est laboriosam quasi doloremque nesciunt atque esse quam et, in doloribus sint officiis
+            voluptatibus? Odio omnis excepturi dicta laboriosam soluta neque sunt nam nisi est voluptas asperiores, quas
+            molestias saepe, quod assumenda officia. Unde eveniet placeat, sequi quod voluptatibus harum tenetur
+            laboriosam corporis porro delectus debitis perferendis provident sunt voluptate voluptas, quam, modi
+            deleniti.</p>
+        <p id="Fugit">Fugit minima dolores, molestiae pariatur eligendi illum culpa tempora quis autem suscipit facere
+            recusandae expedita, neque, sed esse corporis. Nobis, tempore pariatur doloribus nostrum vitae quae quam
+            nemo corrupti similique consequuntur, harum dicta commodi. Est dolorum obcaecati ipsa, molestiae, maxime
+            quam hic harum laboriosam modi eligendi rem iure placeat, doloribus voluptate necessitatibus molestias eos
+            quaerat ad consectetur iste similique quo recusandae tempore inventore. Sit natus voluptates ipsum, iusto
+            quidem asperiores dicta magnam nihil? Magni enim quas eligendi praesentium dignissimos natus, temporibus,
+            nam nemo asperiores fuga totam obcaecati, corrupti ipsum sapiente autem mollitia! Ab sed deleniti nisi!
+            Labore odit delectus aut corporis necessitatibus sapiente, commodi quibusdam voluptas alias quod molestias
+            eveniet minima, repellat harum modi veritatis voluptatum qui ullam quis praesentium? Repellendus itaque
+            mollitia quaerat asperiores dolorum blanditiis! Aliquam provident eaque ut animi. Perferendis, itaque.
+            Provident nam explicabo eligendi veritatis tempore in ab sapiente dolorem omnis officia doloribus hic
+            corrupti, asperiores non pariatur exercitationem vel! Quo iste dignissimos culpa ipsam cum facere
+            voluptatibus nemo nobis. Corporis odio excepturi iste consectetur sit iusto molestias a nesciunt magni id
+            mollitia corrupti est, nostrum reprehenderit accusamus labore, dignissimos ratione eveniet perspiciatis ea
+            incidunt sequi quod. Fuga iste minima eligendi! Mollitia maxime illo ex quisquam.</p>
+        <p id="Alias">Alias doloribus itaque rerum facere. Modi fugit placeat sunt fuga explicabo consequuntur, quae
+            voluptas dolore corporis distinctio et, earum sit, deserunt impedit cum dicta minus sequi assumenda non
+            neque iure quam. Sed debitis deserunt nihil, commodi possimus harum. Ipsa laudantium dignissimos cum
+            perspiciatis accusantium maiores voluptas possimus sed esse, quas unde explicabo repellendus corrupti ipsam
+            quae. Voluptatum eaque repellat distinctio eum nobis non aliquam a repellendus, doloribus odit esse
+            obcaecati qui laudantium, natus recusandae quisquam tenetur beatae rerum assumenda cum reprehenderit tempora
+            quis dolorum. Recusandae necessitatibus culpa adipisci vel ad dignissimos eius, ullam eligendi sed sapiente.
+            Voluptatum consequatur quis, totam iure praesentium libero porro repellendus culpa ratione quod, voluptas
+            est vel voluptates sint, suscipit nemo optio dolor vitae saepe harum expedita quaerat reprehenderit
+            assumenda tenetur? Nemo, incidunt accusantium nam ullam totam et laborum iusto quia amet aspernatur? Nobis
+            doloribus corrupti adipisci, aperiam ea quaerat minima esse dolorum in architecto? Animi optio dignissimos
+            tempora a aliquid harum? Quos exercitationem tempore incidunt, ipsum, molestiae eligendi dolorum pariatur
+            fuga, laboriosam suscipit omnis illum illo repudiandae ut eveniet? Quaerat, amet! Ratione, assumenda dolorem
+            id quasi, pariatur magnam eligendi repellat quibusdam quam dicta facere deserunt? Adipisci rem quaerat
+            aliquid praesentium temporibus ut nihil itaque voluptatem.</p>
+        <p id="Tenetur">Tenetur blanditiis ex qui ullam sit quia debitis, deserunt consequatur laudantium fugiat?
+            Aspernatur aut pariatur doloremque, dolorum impedit voluptatum, maiores praesentium fuga laboriosam et,
+            distinctio non magnam expedita dolor quas. Debitis, fugit. Natus neque illum nihil? Voluptatem praesentium
+            vel impedit nam, nisi inventore tenetur eum fuga quis neque incidunt odio, eveniet voluptas quos laboriosam
+            mollitia, suscipit quod quia doloribus magnam temporibus. Quaerat totam blanditiis obcaecati voluptates?
+            Dolorem minima culpa adipisci est recusandae vel quae ipsum officia nisi eum. Rerum nihil deserunt rem
+            similique saepe velit numquam excepturi error non eius, atque fugiat tempore dolorem deleniti libero facilis
+            tenetur dicta repellendus. Est illum nobis nostrum alias reiciendis qui cupiditate incidunt, harum laborum
+            voluptatum earum placeat nisi, obcaecati, nesciunt unde architecto odit tempora similique eius vero magnam.
+            Consequuntur atque eaque saepe dicta accusamus repellat aperiam, tenetur labore numquam quidem odio soluta
+            fugit. Adipisci voluptate impedit iure recusandae error. Veritatis deserunt sit ad aut quo blanditiis nobis
+            officia doloribus aspernatur voluptate. Minus quis sit voluptatibus accusamus modi quod, fugiat, quos facere
+            assumenda est explicabo eaque tempora sed minima consequuntur! Alias ducimus eveniet nam impedit expedita ea
+            voluptatem? Modi eos necessitatibus nostrum deleniti cumque, illo velit mollitia maiores aliquid possimus
+            quaerat iure culpa doloremque!</p>
+
+
+        <!-- exempel på element som är semantiska, men som används mycket på sidor -->
+        <!-- div, span. Elementet span används för att ge text -->
+        <div>
+            Sommaren är <span>kort</span>
+        </div>
+
+        <hr>
+        <figure>
+            <figcaption>
+                En sida av Casper Lyrebrant
+            </figcaption>
+        </figure>
+        <footer>
+            <img src="images/Github.png" width="64" alt="Github-logo">@Lyrebranten
+        </footer>
+
+
+
+</body>
+
+</html>

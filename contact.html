@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<header>
+    <nav>
+        <a href="semantic-elements.html">Semantiska element</a> | <a href="gallery.html">Gallery</a> | <a
+            href="animals.html">Animals</a> | <a href="index.html">index</a> | <a href="tabeller.html">Tabeller</a>
+    </nav>
+
+</header>
+<hr>
+
+<body>
+
+    <h1>Kontakta oss</h1>
+
+    <a href="contact.html">Ladda om sidan</a>
+    <!-- elementet form omsluter vanligtvis ett antal formulärfält -->
+    <form action="contact.html" method="post">
+
+        <!-- elementet input har olika attribut -->
+        <p>
+            <label for="Firstname">Ditt förnamn:</label> <br>
+            <input type="text" name="Firstname" id="Firstname" placeholder="Ange förnamn">
+        </p>
+        <!-- en knapp för att skicka formuläret -->
+        <input type="submit" value="Skicka">
+        <p>
+            <label for="Lastname">
+                Ditt efternamn: <br><input type="text" name="Lastname" id="Lastname">
+            </label>
+        </p>
+
+    </form>
+    <hr>
+
+    <!-- skapa ett formulär där man kan ange epost och lössenord -->
+    <!-- obs ett formulär bör skickas med metoden "post" istället för "get" -->
+    <!-- metoden get ger en url där formulär flält med dess värde visar i klar text!!!! -->
+
+    <!-- Tillägget live i code ger ett 405 fel om method="post" -->
+    <h1>Logga in</h1>
+    <form action="contact.html" method="post">
+        <p>
+            <label>
+                Ange epost: <br> <input type="email" name="Email" id="email" required>
+            </label>
+        </p>
+
+        <p> <label>
+                Ange lösenord: <br> <input type="password" name="Password" id="Password" required>
+            </label>
+        </p>
+
+        <button>Logga in</button>
+    </form>
+    <hr>
+    <!-- formulär för att hantera flervalsfråga -ex ange intressen -->
+    <!-- INPUT CHECKBOX - FLERVALS FRÅGA -->
+    <!-- Elementet fieldset kan gruppera flera val -->
+
+    <form action="contact.html" method="get">
+
+        <fieldset>
+
+            <legend>Coola spel - som jag har grindat</legend>
+
+            <label>
+
+                <br><input type="checkbox" name="Minecraft" id="Minecraft" value="true"> Minecraft
+
+            </label>
+            <br>
+            <label>
+
+                <input type="checkbox" name="terraria" id="terraria" value="true"> terraria
+
+            </label>
+            <br>
+            <label>
+
+                <input type="checkbox" name="diablo 3" id="diablo 3" value="true"> diablo 3
+
+            </label>
+
+        </fieldset>
+
+        <!-- ange en fråga där bara ett alternativ är möjligt: input type="radio" -->
+        <!-- obs- glöm inte använda attributet "value" som anger själva värdet -->
+
+        <fieldset>
+            <legend>Ange din spelnivå (generellt)</legend>
+
+            <label>
+                <input type="radio" name="Level" id="Noob" value="Noob"> Mega noob
+            </label>
+            <br>
+
+            <label>
+                <input type="radio" name="Level" id="Mindre noob" value="Mindre noob">Lite mindre noob
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Level" id="Helt okej" value="Helt okej">Helt okej
+            </label>
+
+        </fieldset>
+
+        <!-- elementet select skapar en lista där varje val är elementet option -->
+
+        <fieldset>
+            <legend>När på dygnet är du bäst?</legend>
+
+            <select name="hours" id="hours">
+                <option value="7_12">07:00-12:00</option>
+                <option value="12_18">12:00-18:00</option>
+                <option value="18_24">18:00-24:00</option>
+            </select>
+        </fieldset>
+
+        <input type="submit" value="Skicka">
+
+    </form>
+
+    <h4>Dags att besiktiga bilen</h4>
+
+    <form action="contact.html" method="get">
+
+        <fieldset>
+            <legend>Registeringsnummer och datumx</legend>
+            <label for="licenseplate">Regestreringsnummer</label>
+            <input type="text" name="licenseplate" id="licenseplate" maxlength="7" minlength="6" required>
+
+            
+    <br>
+        
+        <!-- godkänn datalagring -->
+        <label for="accept">
+            <input type="checkbox" name="accept" id="accept" checked disabled>
+            Härmed goddkänner jag att mina uppgifter lagras digitalt (du är tvingad hehe)
+        </label>
+<br>
+        <label for="date">Datum</label>
+        <input type="datetime-local" name="time" id="time">    
+    </fieldset>
+    <input type="submit" value="Send">
+    </form>
+
+</body>
+
+</html>
